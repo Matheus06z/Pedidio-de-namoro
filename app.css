@@ -31,7 +31,7 @@
 
   .logo {
     font-size: 2rem;
-    color: #f26161;
+    color: #6188f2;
     text-transform: uppercase;
     letter-spacing: 2px;
     display: flex;
@@ -60,23 +60,27 @@
 
   h1 {
     font-size: 3rem;
-    color: #f26161;
+    color: #6188f2;
     margin-bottom: 30px;
+  }
+
+  cor {
+    color: #ff0909;
   }
 
   #yes {
     background-color: #fff;
-    color: #ff6961;
+    color: #6188f2;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   }
 
   #yes:hover {
-    background-color: #ff6961;
-    color: #fff;
+    color: #ffffff;
+    color: #6188f2;
   }
 
   .no {
-    background-color: #ff6961;
+    background-color: #6188f2;
     color: #fff;
     font-size: 20px;
     padding: 10px 20px;
@@ -106,7 +110,7 @@
   }
 
   .cta button:hover {
-    background-color: #f22d2d;
+    background-color: #0044ff;
   }
 
   a {
@@ -114,7 +118,7 @@
     color: #666666;
   }
 
-  /* Estilos do footer */
+  /* Estilos do footer
   footer {
     position: fixed;
     bottom: 0;
@@ -129,4 +133,4 @@
     align-items: center;
     font-size: 0.8rem;
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
-  }
+  } */
