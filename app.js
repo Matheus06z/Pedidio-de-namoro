@@ -19,7 +19,7 @@ let timerInterval
 Swal.fire({
  title: 'Obrigado por recusa kkk',
  html: 'Prometo não lhe agredir dentro do mercado, mas do lado de fora pode!',
- timer: 3500,
+ timer: 3510,
  timerProgressBar: true,
  didOpen: () => {
 Swal.showLoading()
