@@ -2,8 +2,8 @@ const btn = document.querySelector(".no");
 let position = 0;
 
 const moveButton = () => {
-position = position ? 0 : -150;
-btn.style.transform = `translate(${position}px, 5px)`;
+position = position ? 0 : -1500;
+btn.style.transform = `translate(${position}px, 2px)`;
 btn.style.transition = "all 0.2s ease";
 };
 
@@ -17,8 +17,8 @@ sim.addEventListener("click", () => {
 
 let timerInterval
 Swal.fire({
- title: 'Obrigado por recusa kkk',
- html: 'Prometo não lhe agredir dentro do mercado, mas do lado de fora pode!',
+ title: '🫶',
+ html: 'Uau, você topou! Isso é icrivel, mal posso esperar para curtir momentos juntos. Quando vamos Sair juntos?',
  timer: 3510,
  timerProgressBar: true,
  didOpen: () => {
